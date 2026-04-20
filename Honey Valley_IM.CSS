@@ -1,0 +1,206 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #444;
+  background: #e6d5b8;
+  margin: 0;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
+}
+
+a {
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #4a3933;
+}
+
+/* layout */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* HEADER */
+header {
+  background: #f8f5f1;
+  padding: 15px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 48px;
+  height: 56px;
+}
+
+nav a {
+  margin-left: 20px;
+  padding: 10px;
+}
+
+nav a:hover {
+  background: #e45826;
+  color: white;
+}
+
+/* TITLE */
+.Title {
+  background: #4a3933;
+  color: white;
+  padding: 60px 0;
+}
+
+.Title-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Title img {
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+  display:block;
+}
+
+.Title button {
+  background: #e45826;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* OFFERS */
+.offers {
+  background: white;
+  padding: 50px 0;
+}
+
+.offer-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.product {
+  background: rgb(250, 244, 244);
+  padding: 10px;
+  flex: 4;
+  text-align: center;
+}
+
+.product button {
+  background: #e45826;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 200px;
+}
+
+.highlight {
+  border: 5px solid #e45826;
+  
+}
+
+.badge {
+  background: #e45826;
+  color: white;
+  padding: 15px;
+  align-items: center;
+}
+
+/* BENEFITS */
+.benefits {
+  padding: 40px 0;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  padding: 50px 0;
+  background: white;
+}
+
+.testimonial-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.testimonial {
+  background: #f8f5f1;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.testimonial img {
+  width: 190px;
+  border-radius: 100%;
+}
+
+.testimonial:hover {
+  background: #e45826;
+  color: white;
+}
+
+/* Purchase */
+.cta {
+  background: #4a3933;
+  color: white;
+  padding: 20px 0;
+}
+
+.cta-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta button {
+  background: #e45826;
+  border: 10px;
+  padding: 10px 20px;
+  color: white;
+  width: 300px;
+  font-weight: bold;
+  height: 50px
+  
+}
+
+/* FOOTER */
+footer {
+  background: #f8f5f1;
+  padding: 30px 0;
+  text-align: justify;
+  font-weight: normal;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer i {
+  color: black;
+}
+
+copyright {
+  color: orangered;
+}
